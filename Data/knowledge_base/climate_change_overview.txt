@@ -1,0 +1,72 @@
+Climate Change: Causes, Impacts, and Projections
+
+Source: Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report 2022
+
+Introduction
+
+Climate change refers to long-term shifts in global temperatures and weather patterns. While natural factors have influenced the Earth's climate throughout its history, human activities have been the dominant driver of climate change since the mid-20th century, primarily through the burning of fossil fuels and deforestation.
+
+Scientific Basis
+
+Greenhouse Gas Emissions
+
+The primary driver of contemporary climate change is the increase in atmospheric greenhouse gas concentrations:
+
+Carbon Dioxide (CO2): Atmospheric CO2 levels have risen from approximately 280 parts per million (ppm) in pre-industrial times to over 420 ppm today. This increase is primarily due to fossil fuel combustion and land use changes.
+
+Methane (CH4): Methane concentrations have more than doubled since pre-industrial times. Major sources include livestock agriculture, rice cultivation, fossil fuel extraction, and landfills.
+
+Nitrous Oxide (N2O): Agricultural activities, particularly fertilizer use, are the primary anthropogenic source of nitrous oxide emissions.
+
+Global Temperature Rise
+
+Global average surface temperature has increased by approximately 1.1°C since the pre-industrial period (1850-1900). The rate of warming has accelerated, with the past decade being the warmest on record.
+
+Observed Impacts
+
+Physical Changes
+
+1. Sea Level Rise: Global mean sea level has risen by approximately 20 cm since 1900, with the rate accelerating in recent decades.
+
+2. Arctic Ice Loss: Arctic sea ice extent has declined by approximately 13% per decade since satellite measurements began in 1979.
+
+3. Glacier Retreat: Mountain glaciers worldwide are losing mass, affecting water resources for millions of people.
+
+4. Ocean Warming: The ocean has absorbed over 90% of the excess heat from global warming, leading to ocean thermal expansion and marine ecosystem stress.
+
+Extreme Weather Events
+
+Climate change has increased the frequency and intensity of various extreme weather events:
+
+- Heat waves are becoming more frequent, intense, and longer-lasting
+- Heavy precipitation events have increased in many regions
+- Drought conditions have intensified in some areas
+- Tropical cyclone intensity has increased, though frequency has remained stable
+
+Ecosystem Impacts
+
+- Shifts in species distributions toward higher latitudes and elevations
+- Changes in timing of biological events (phenology)
+- Coral bleaching due to ocean warming and acidification
+- Forest dieback and increased wildfire risk
+
+Future Projections
+
+Under current policies, global warming is projected to reach 2.4-3.5°C by 2100. Limiting warming to 1.5°C, as targeted by the Paris Agreement, would require:
+
+- Net-zero CO2 emissions by approximately 2050
+- Rapid and deep reductions in all greenhouse gas emissions
+- Significant changes in energy systems, land use, and consumption patterns
+
+Climate Tipping Points
+
+Scientists have identified potential tipping points that could trigger irreversible changes:
+
+- Collapse of major ice sheets (Greenland, West Antarctica)
+- Permafrost thawing releasing stored carbon
+- Amazon rainforest dieback
+- Changes in ocean circulation patterns
+
+Conclusion
+
+Climate change is unequivocally caused by human activities and poses severe risks to natural and human systems. Limiting warming requires immediate, substantial emissions reductions alongside adaptation measures to address unavoidable impacts.
