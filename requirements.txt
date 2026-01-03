@@ -9,3 +9,5 @@ langchain
 python-dotenv
 pytest
 httpx
+PyPDF2
+tiktoken

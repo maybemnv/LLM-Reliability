@@ -1,22 +1,19 @@
 """
 LLM Response Generator
 
-This module provides LLM response generation functionality.
-Phase 1: Stub implementation with deterministic responses.
-Future phases will integrate with actual LLM APIs (OpenAI/Gemini).
+Stub implementation for LLM response generation.
+Returns deterministic responses based on query keywords.
 """
 
 from typing import Dict
 
-# Stub responses for deterministic testing
-_STUB_RESPONSES: Dict[str, str] = {
+STUB_RESPONSES = {
     "default": (
         "Based on available information, this topic involves multiple factors "
         "that require careful consideration. The evidence suggests several key points: "
         "First, there are environmental considerations that affect outcomes. "
         "Second, health implications vary based on exposure levels and duration. "
-        "Third, mitigation strategies exist but require proper implementation. "
-        "Further analysis of specific context would provide more detailed insights."
+        "Third, mitigation strategies exist but require proper implementation."
     ),
     "health": (
         "Air pollution has significant health impacts including respiratory diseases, "
@@ -38,46 +35,29 @@ def generate_answer(query: str) -> str:
     """
     Generate an LLM response for the given query.
     
-    Phase 1 Implementation: Returns deterministic stub responses
-    based on query keywords for consistent testing.
+    Stub implementation: returns keyword-based responses.
     
     Args:
-        query: The user's query to generate a response for.
+        query: The user's query.
         
     Returns:
-        A string containing the generated response.
-        
-    Examples:
-        >>> answer = generate_answer("What are the health impacts of pollution?")
-        >>> assert "health" in answer.lower() or len(answer) > 0
+        Generated response string.
     """
     if not query or not query.strip():
         return "Unable to generate response for empty query."
     
     query_lower = query.lower()
     
-    # Select appropriate stub response based on query keywords
-    if any(keyword in query_lower for keyword in ["health", "pollution", "air", "disease"]):
-        return _STUB_RESPONSES["health"]
-    elif any(keyword in query_lower for keyword in ["climate", "warming", "carbon", "temperature"]):
-        return _STUB_RESPONSES["climate"]
+    if any(kw in query_lower for kw in ["health", "pollution", "air", "disease"]):
+        return STUB_RESPONSES["health"]
+    elif any(kw in query_lower for kw in ["climate", "warming", "carbon", "temperature"]):
+        return STUB_RESPONSES["climate"]
     
-    return _STUB_RESPONSES["default"]
+    return STUB_RESPONSES["default"]
 
 
 def generate_answer_with_metadata(query: str) -> Dict[str, str]:
-    """
-    Generate an LLM response with additional metadata.
-    
-    This function wraps generate_answer and provides additional
-    context for debugging and analysis.
-    
-    Args:
-        query: The user's query to generate a response for.
-        
-    Returns:
-        Dictionary containing 'answer' and 'model' metadata.
-    """
+    """Generate response with model metadata."""
     return {
         "answer": generate_answer(query),
         "model": "stub-v1",
